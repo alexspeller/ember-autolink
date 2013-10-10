@@ -1,0 +1,15 @@
+{
+  "name": "ember-autolink",
+  "main": "ember-autolink.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/alexspeller/ember-autolink",
+  "authors": [
+    "Alex Speller <alex@alexspeller.com>"
+  ],
+  "description": "Easy autolinking for ember views",
+  "keywords": [
+    "Ember",
+    "Autolink"
+  ],
+  "license": "MIT"
+}
