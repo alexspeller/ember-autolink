@@ -1,7 +1,7 @@
 {
   "name": "ember-autolink",
   "main": "ember-autolink.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/alexspeller/ember-autolink",
   "authors": [
     "Alex Speller <alex@alexspeller.com>"

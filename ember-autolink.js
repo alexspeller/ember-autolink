@@ -39,4 +39,10 @@
     }
   });
 
+  Ember.computed.autolink = function(key) {
+    return Ember.computed(function() {
+      return Ember.Autolink.autolink(this.get(key));
+    }).property(key);
+  };
+
 }).call(this);

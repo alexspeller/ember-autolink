@@ -24,3 +24,7 @@ Ember.Autolink = Em.Object.extend().reopenClass
       url = @debracket url
       "<a href='#{url}'>#{url}</a>"
 
+Ember.computed.autolink = (key) ->
+  Ember.computed(->
+    Ember.Autolink.autolink @get(key)
+  ).property(key)
